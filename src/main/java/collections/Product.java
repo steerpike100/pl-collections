@@ -1,3 +1,5 @@
+package collections;
+
 public class Product {
 
     private final String name;
@@ -17,7 +19,7 @@ public class Product {
     }
 
     public String toString(){
-        return "Product{" +
+        return "collections.Product{" +
                 "name='" + name + '\'' +
                 ", weight=" + weight +
                 '}';
