@@ -1,6 +1,13 @@
 package collections;
 
+import java.util.Comparator;
+
 public class Product {
+
+
+
+    public static final Comparator<Product>BY_WEIGHT
+            = (p1, p2) -> Integer.compare(p1.getWeight(), p2.getWeight());
 
     private final String name;
     private final int weight;
