@@ -22,6 +22,7 @@ public class TheArrayProblem {
         System.out.println(Arrays.toString(products));
     }
 
+
     private static Product[] add(Product product, Product[] array) {
         int length = array.length;
         Product[] newArray = Arrays.copyOf(array, length + 1);
